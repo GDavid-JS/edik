@@ -1,0 +1,13 @@
+gulp/**/*.*
+gulpfile.babel.js
+package-lock.json
+package.json
+postcss.config.js
+webpack.base.conf.js
+webpack.build.conf.js
+webpack.dev.conf.js
+node_modules/**/*.*
+dist/**/*.*
+stylelint.config.js
+src/assets/styles/utils/libs.scss
+src/assets/cssFonts/**/*.*

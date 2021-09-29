@@ -1,0 +1,128 @@
+@import "./modules/_body.scss";
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.835);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  &__link {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.719);
+  height: 519px;
+  padding: 50px 0 50px 0;
+
+  &__inner {
+    width: 50%;
+    // height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(255, 115, 0);
+  }
+
+  &-check-in {
+    width: 100%;
+    padding: 20px;
+
+    &__question {
+      text-transform: uppercase;
+      color:black;
+    }
+
+    &__button {
+      margin-left: 30px;
+      color: rgb(4, 4, 195);
+      border-bottom: 1px dotted rgb(4, 4, 195);
+      cursor: pointer;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+  }
+
+  &__input {
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    font-family: "Monsterrat", sans-serif;
+    border: 1px solid rgb(255, 115, 0);
+    outline: none;
+    padding: 5px;
+
+    &-file {
+      display: none;
+    }
+  }
+
+  &__button {
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(255, 115, 0);
+    cursor: pointer;
+    text-transform: uppercase;
+    color:white;
+
+    &:hover {
+      background-color: rgb(212, 96, 0);
+    }
+  }
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__label {
+    margin-top: 20px;
+    // height: 40px;
+    width: 100%;
+    font-size: 15px;
+    font-family: "Monsterrat", sans-serif;
+    border: 1px solid rgb(255, 115, 0);
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+
+// .main__inner {
+//   position: relative;
+//   top: 50%;
+//   left: 50%;
+//   transform: translateY(40%);
+//   // width: 50%;
+//   height: 350px;
+//   background-color: rgba(255, 255, 255, 0.705);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }

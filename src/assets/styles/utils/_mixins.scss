@@ -1,0 +1,7 @@
+@mixin font($family: 'Roboto', $size: 16px, $style: normal, $transform: none, $bold: normal) {
+  font-family: $family, sans-serif;
+  font-size: $size;
+  font-style: $style;
+  text-transform: $transform;
+  font-weight: $bold;
+}

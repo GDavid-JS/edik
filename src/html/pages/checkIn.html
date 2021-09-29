@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/checkIn.css">
+  <title>Document</title>
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header__link-wrap">
+      <a href="http://localhost:4000/" class="header__link">Главная</a>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__inner">
+      <form class="form" enctype="multipart/form-data">
+        <div class="form__inner">
+          <input type="text" name="name" class="form__input form__input-text" placeholder="Введите ваше имя">
+          <input type="password" id="" name="password" class="form__input form__input-password" placeholder="Введите пароль">
+          <input type="checkbox" name="checkbox" class="form__checkbox" value="" checked="checked">
+        </div>
+        <button type="button"class="form__button">Отправить</button>
+      </form>
+      <div class="main-check-in">
+        <span class="main-check-in__question">Вы еще не зарегестрированы ?</span>
+        <span class="main-check-in__button">зарегестрироваться</span>
+      </div>
+    </div>
+  </main>
+  <!-- <form class="form___x">
+    <input name="name" value="a">
+    <input name="surname" value="b">
+  </form>
+  <script>
+    var formData = new FormData(document.querySelector('.form___x'));
+  
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "http://localhost:5000/login");
+    xhr.send(formData);
+  
+  </script> -->
+  <script src="./assets/js/checkIn.js"></script>
+</body>
+</html>

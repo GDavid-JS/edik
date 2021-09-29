@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <url>
+  <loc>http://mysite.ru/</loc> <!-- Ссылка на сайт -->
+  <lastmod>2014-09-18T18:54:13+04:00</lastmod> <!-- Дата последнего изминения -->
+  <changefreq>always</changefreq>
+  <priority>1.0</priority> <!-- Показывает приоритет над другими страницами -->
+ </url>
+ <url>
+  <loc>http://mysite.ru/category/</loc>
+  <lastmod>2014-09-18T18:57:09+04:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.8</priority>
+ </url>
+ <url>
+  <loc>http://mysite.ru/page/</loc>
+  <lastmod>2014-09-18T18:59:37+04:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.6</priority>
+ </url>
+</urlset>
+</urlset>

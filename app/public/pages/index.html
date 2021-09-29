@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru" class="html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="/assets/styles/main.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="header__logo-wrap">
+      <a href="http://localhost:5000">
+        <div class="logo"></div>
+      </a>
+    </div>
+    <nav class="header__nav">
+      <ol class="header__list">
+        <li class="header__item">
+          <a class="header__link" href="#about">О нас</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#feedback">Обратная связь</a>
+        </li>
+        <!-- <li class="header__item"><a class="header__link" href="/checkIn.html">Войти</a></li> -->
+        <!-- <li class="header__item"><a class="header__link" href="#">89192516672</a></li> -->
+      </ol>
+    </nav>
+    <!-- <div class="header__to-come-in-wrap">
+      <div class="header__to-come-in"><a class="header__to-come-in__link" href="/checkIn.html">Войти</a></div>
+    </div> -->
+  </header class="header">
+  <main class="main">
+    <section class="section section-about">
+      <div class="section-about__block section-about__block_first" id="about">
+        <h2 class="section-about__title_first">О нас</h2>
+        <hr class="section__hr">
+        <p class="section-about__text_first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse commodi omnis voluptatum assumenda. Quibusdam magni explicabo, nisi vero voluptates sapiente iusto odio facilis maxime sint quia consectetur molestias a aut, nulla ab odit, tenetur architecto. Rem, amet doloremque facilis distinctio sapiente veniam dolorem fuga hic eaque tenetur dignissimos, placeat necessitatibus. Cum iste atque consectetur cupiditate fuga, dolorem distinctio? Soluta veniam sit accusamus est dolores eius suscipit voluptas quae aliquam hic in voluptates, voluptatum enim totam reiciendis! Nam accusantium, reprehenderit iure distinctio soluta laboriosam repudiandae! Sunt facere fugiat tempore dolor dolores aperiam obcaecati voluptatibus pariatur quam est, possimus, veniam repellendus.</p>
+      </div>
+
+
+
+      <div class="section-about__block section-about__block_second">
+        <h3 class="section-about__title_second">Заголовок</h3>
+        <hr class="section__hr">
+        <div class="section-about-inner">
+          <div class="section-about__slider">
+            <div class="section-about__img section-about__main-img">
+
+
+              <div class="section-about__left-arrow-wrap_first">
+                <div class="section-about__left-arrow-wrap_second">
+                  <div class="section-about__left-arrow"></div>
+                </div>
+              </div>
+
+
+              <div class="section-about__right-arrow-wrap_first">
+                <div class="section-about__right-arrow-wrap_second">
+                  <div class="section-about__right-arrow"> </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            <div class="section-about__flex-wrap">
+              <div class="section-about-inner_second">
+                <div class="section-about-inner_second__img section-about-inner_second__img_first"></div>
+              </div>
+              <div class="section-about-inner_second">
+                <div class="section-about-inner_second__img section-about-inner_second__img_second"></div>
+              </div>
+              <div class="section-about-inner_second">
+                <div class="section-about-inner_second__img section-about-inner_second__img_third"></div>
+              </div>
+              <div class="section-about-inner_second">
+                <div class="section-about-inner_second__img section-about-inner_second__img_forth"></div>
+              </div>
+            </div>
+          </div>
+          <div class="section-about__text_second">Lorem idivsum dolor sit amet consectetur adipisicing elit. Eligendi, veritatis? Doloremque quo impedit ea modi vel unde, reiciendis sunt labore eligendi. Molestiae atque maiores, doloremque odio molestias dignissimos dolorem suscipit similique provident, perspiciatis maxime. Temporibus possimus veritatis enim quos excepturi?
+            </p>
+          </div>
+        </div>
+
+
+    </section>
+
+    <section class="section section-feedback">
+
+
+      <div class="section-feedback__block" id="feedback">
+        <h2 class="section-feedback__title">Отправить запрос на покупку</h2>
+        <hr class="section__hr">
+        <form class="form-message" enctype="multipart/form-data">
+          <div class="form-message__input-wrap">
+            <input type="text" name="name" class="form__element form-message__input form__input-name" placeholder="Введите ваше имя">
+            <!-- Возможно тут текст -->
+          </div>
+          <div class="form-message__input-wrap">
+            <input type="email" name="email" class="form__element form-message__input form__input-email" placeholder="Введите вашу электронную почту">
+          </div>
+          <div class="form-message__input-wrap">
+            <input type="tel" name="tel" class="form__element form-message__input form__input-tel" placeholder="Введите ваш номер телефона">
+          </div>
+          <textarea name="text" class="form__element form-message__textarea" placeholder="Введите текст"></textarea>
+          <div class="form-message__inner">
+            <button class="form-message__button" type="button">Отправить</button>
+          </div>
+        </form>
+      </div>
+
+
+    </section>
+
+    <section class="section section-comment">
+      <div class="section-comment__inner">
+        <h2 class="section-comment__title">Комментарии</h2>
+
+        <div class="rating">
+          <div class="rating__wrap">
+            <input class="rating__input" id="rating-5" type="radio" name="rating" value="5">
+            <label class="rating__ico fa fa-star-o fa-2x" for="rating-5" title="5 out of 5 stars"></label>
+            <input class="rating__input" id="rating-4" type="radio" name="rating" value="4">
+            <label class="rating__ico fa fa-star-o fa-2x" for="rating-4" title="4 out of 5 stars"></label>
+            <input class="rating__input" id="rating-3" type="radio" name="rating" value="3">
+            <label class="rating__ico fa fa-star-o fa-2x" for="rating-3" title="3 out of 5 stars"></label>
+            <input class="rating__input" id="rating-2" type="radio" name="rating" value="2">
+            <label class="rating__ico fa fa-star-o fa-2x" for="rating-2" title="2 out of 5 stars"></label>
+            <input class="rating__input" id="rating-1" type="radio" name="rating" value="1">
+            <label class="rating__ico fa fa-star-o fa-2x" for="rating-1" title="1 out of 5 stars"></label>
+          </div>
+        </div>
+
+        <hr class="section-comment__hr">
+
+
+        <div class="section-comment__blocks">
+          <div class="section-comment__blocks-inner">
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+
+  </footer>
+
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
